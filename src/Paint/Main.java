@@ -11,7 +11,7 @@ public class Main {
         splashFrame.setSize(400, 300);
         splashFrame.setLocationRelativeTo(null);
 
-        URL imageUrl = Main.class.getResource("/resources/iti.jpg");
+        URL imageUrl = Main.class.getResource("/resources/iti2.jpg");
         if (imageUrl != null) {
             ImageIcon splashImage = new ImageIcon(imageUrl);
             JLabel splashLabel = new JLabel(splashImage);
